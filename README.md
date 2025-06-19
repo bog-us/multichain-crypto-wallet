@@ -936,6 +936,10 @@ The optional parameters that the object takes in are: value, contractAbi, gas pr
 }
 ```
 
+### Example application
+
+An example Next.js wallet is provided in [`examples/eron-wallet`](examples/eron-wallet). It shows how to integrate this library in a Vercel-hosted web app with log in via MetaMask, Phantom or TronLink and exposes serverless API routes for wallet operations. Cross-chain bridging is not implemented and should be added with your preferred bridge service.
+
 ### Want to contribute?
 
 Contributions are welcome! Kindly refer to the [contribution guidelines](CONTRIBUTING.md).
